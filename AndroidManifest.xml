@@ -209,7 +209,8 @@
         </receiver>
         <service
             android:name = ".BluetoothAutoPairService" >
-        </service>
+    </service>
+<!--
 	<activity
 	    android:name = ".BtSetupActivity"
 	    android:excludeFromRecents="true"
@@ -219,7 +220,8 @@
 	        <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <provider
+-->
+	<provider
             android:name=".database.TvControlDataProvider"
             android:authorities="com.droidlogic.tv.settings"
             android:exported="true">

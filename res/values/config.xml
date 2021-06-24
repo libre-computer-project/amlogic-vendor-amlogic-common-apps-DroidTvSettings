@@ -25,7 +25,7 @@
     <bool name="display_need_hdr_function">true</bool>
     <bool name="display_need_sdr_function">true</bool>
     <bool name="display_need_playback_set_function">true</bool>
-    <bool name="display_need_bluetooth_remote_function">true</bool>
+    <bool name="display_need_bluetooth_remote_function">false</bool>
 
     <!--tv-->
     <bool name="tv_pq_need_pictrue_mode">true</bool>
